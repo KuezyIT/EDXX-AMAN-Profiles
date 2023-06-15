@@ -4,37 +4,37 @@
         "32R": {
             "targetFixes": [ "DK655", "RARIX", "FF32R", "KBO"],
             "viaFixes": [ "GULKO", "KOPAG", "ERNEP", "NOV", "DEPOK", "KUMIK" ],
-            "tagLayout": "defaultLayout",
+            "tagLayout": "customLayout",
             "destinationAirports": [ "EDDK" ]
         },
         "32L": {
             "targetFixes": [ "DK265", "LIRMU", "KBO" ],
             "viaFixes": [ "GULKO", "KOPAG", "ERNEP", "NOV", "DEPOK", "KUMIK" ],
-            "tagLayout": "defaultLayout",
+            "tagLayout": "customLayout",
             "destinationAirports": [ "EDDK" ]
         },
         "24": {
             "targetFixes": [ "DK555", "KUKIT", "FF24", "KBO" ],
             "viaFixes": [ "GULKO", "KOPAG", "ERNEP", "NOV", "DEPOK", "KUMIK" ],
-            "tagLayout": "defaultLayout",
+            "tagLayout": "customLayout",
             "destinationAirports": [ "EDDK" ]
         },
         "14L": {
             "targetFixes": [ "DK455", "LEGDU", "KBO" ],
             "viaFixes": [ "GULKO", "KOPAG", "ERNEP", "NOV", "DEPOK", "KUMIK" ],
-            "tagLayout": "defaultLayout",
+            "tagLayout": "customLayout",
             "destinationAirports": [ "EDDK" ]
         },
         "14R": {
             "targetFixes": [ "DK255", "ROKAK", "KBO" ],
             "viaFixes": [ "GULKO", "KOPAG", "ERNEP", "NOV", "DEPOK", "KUMIK" ],
-            "tagLayout": "defaultLayout",
+            "tagLayout": "customLayout",
             "destinationAirports": [ "EDDK" ]
         },
         "06": {
             "targetFixes": [ "DK755", "BEBSA", "KBO" ],
             "viaFixes": [ "GULKO", "KOPAG", "ERNEP", "NOV", "DEPOK", "KUMIK" ],
-            "tagLayout": "defaultLayout",
+            "tagLayout": "customLayout",
             "destinationAirports": [ "EDDK" ]
         }
     },
@@ -51,6 +51,16 @@
             { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
             { "source": "static", "width": 1 },
             { "source": "scratchPad", "width": 4 }
+        ],
+        "customLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "•", "width": 2, "isViaFixIndicator": true },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "" },
+            { "source": "static", "width": 1 },
+            { "source": "estimatedLandingTime", "width": 5}
         ]
     }
 }

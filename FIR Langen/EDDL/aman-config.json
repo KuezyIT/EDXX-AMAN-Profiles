@@ -1,17 +1,29 @@
 {
     "openAutomatically": false,
     "timelines": {
-        "25": {
-            "targetFixes": [ "DG016", "IBATO" ],
-            "viaFixes": [ "HMM", "DOMEG", "BAMSU" ],
+        "05L": {
+            "targetFixes": [ "DL017", "DIKMI", "DUS"],
+            "viaFixes": [ "DOMUX", "HALME", "PISAP", "LMA", "DISIP", "BABUV", "ABIGI", "GOGOG", "BIKMU" ],
             "tagLayout": "customLayout",
-            "destinationAirports": [ "EDDG" ]
+            "destinationAirports": [ "EDDL" ]
         },
-        "07": {
-            "targetFixes": [ "DG012", "KEMOT" ],
-            "viaFixes": [ "HMM", "DOMEG", "BAMSU" ],
+        "05R": {
+            "targetFixes": [ "DL012", "NATOS", "DUS" ],
+            "viaFixes": [ "DOMUX", "HALME", "PISAP", "LMA", "DISIP", "BABUV", "ABIGI", "GOGOG", "BIKMU" ],
             "tagLayout": "customLayout",
-            "destinationAirports": [ "EDDG" ]
+            "destinationAirports": [ "EDDL" ]
+        },
+        "23L": {
+            "targetFixes": [ "DL001", "METMA", "DUS" ],
+            "viaFixes": [ "DOMUX", "HALME", "PISAP", "LMA", "DISIP", "BABUV", "ABIGI", "GOGOG", "BIKMU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDL" ]
+        },
+        "23R": {
+            "targetFixes": [ "DL004", "REGNO", "DUS" ],
+            "viaFixes": [ "DOMUX", "HALME", "PISAP", "LMA", "DISIP", "BABUV", "ABIGI", "GOGOG", "BIKMU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDL" ]
         }
     },
     "tagLayouts": {
