@@ -1,0 +1,32 @@
+{
+    "openAutomatically": false,
+    "timelines": {
+        "25": {
+            "targetFixes": [ "DG016", "IBATO" ],
+            "viaFixes": [ "HMM", "DOMEG", "BAMSU" ],
+            "tagLayout": "displayLayout",
+            "destinationAirports": [ "EDDG" ]
+        },
+        "07": {
+            "targetFixes": [ "DG012", "KEMOT" ],
+            "viaFixes": [ "HMM", "DOMEG", "BAMSU" ],
+            "tagLayout": "displayLayout",
+            "destinationAirports": [ "EDDG" ]
+        }
+    },
+    "tagLayouts": {
+        "defaultLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "aircraftType", "width": 5 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true },
+            { "source": "static", "width": 1 },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
+            { "source": "static", "width": 1 },
+            { "source": "scratchPad", "width": 4 }
+        ]
+    }
+}
