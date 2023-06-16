@@ -1,0 +1,66 @@
+{
+    "openAutomatically": false,
+    "timelines": {
+        "25L": {
+            "targetFixes": [ "DF621", "LEDKI", "FF25L", "FRD"],
+            "viaFixes": [ "TANJO", "ROLIS", "UNOKO", "RAMOB", "KERAX", "GEDEH", "EBIPA", "EMPAX", "FAWUR", "PETIX", "SPESA", "CHA", "RIPKU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDF" ]
+        },
+        "25C": {
+            "targetFixes": [ "DF521", "REDGO", "FF25C", "FRD" ],
+            "viaFixes": [ "TANJO", "ROLIS", "UNOKO", "RAMOB", "KERAX", "GEDEH", "EBIPA", "EMPAX", "FAWUR", "PETIX", "SPESA", "CHA", "RIPKU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDF" ]
+        },
+        "25R": {
+            "targetFixes": [ "DF422", "NIBAP", "FRD" ],
+            "viaFixes": [ "TANJO", "ROLIS", "UNOKO", "RAMOB", "KERAX", "GEDEH", "EBIPA", "EMPAX", "FAWUR", "PETIX", "SPESA", "CHA", "RIPKU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDF" ]
+        },
+        "07L": {
+            "targetFixes": [ "DF452", "NODGO" ],
+            "viaFixes": [ "TANJO", "ROLIS", "UNOKO", "RAMOB", "KERAX", "GEDEH", "EBIPA", "EMPAX", "FAWUR", "PETIX", "SPESA", "CHA", "RIPKU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDF" ]
+        },
+        "07C": {
+            "targetFixes": [ "DF552", "LOMPO", "FRD" ],
+            "viaFixes": [ "TANJO", "ROLIS", "UNOKO", "RAMOB", "KERAX", "GEDEH", "EBIPA", "EMPAX", "FAWUR", "PETIX", "SPESA", "CHA", "RIPKU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDF" ]
+        },
+        "07R": {
+            "targetFixes": [ "DF651", "ROBSA", "FRD" ],
+            "viaFixes": [ "TANJO", "ROLIS", "UNOKO", "RAMOB", "KERAX", "GEDEH", "EBIPA", "EMPAX", "FAWUR", "PETIX", "SPESA", "CHA", "RIPKU" ],
+            "tagLayout": "customLayout",
+            "destinationAirports": [ "EDDF" ]
+        }
+    },
+    "tagLayouts": {
+        "defaultLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "¤", "width": 2, "isViaFixIndicator": true },
+            { "source": "aircraftType", "width": 5 },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "remainingDistance", "width": 4, "rightAligned": true },
+            { "source": "static", "width": 1 },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "-----" },
+            { "source": "static", "width": 1 },
+            { "source": "scratchPad", "width": 4 }
+        ],
+        "customLayout": [
+            { "source": "assignedRunway", "width": 4 },
+            { "source": "callsign", "width": 8 },
+            { "source": "static", "defaultValue": "•", "width": 2, "isViaFixIndicator": true },
+            { "source": "aircraftWtc", "width": 2 },
+            { "source": "timeBehindPreceeding", "width": 5, "rightAligned": true },
+            { "source": "directRouting", "width": 5, "rightAligned": true, "defaultValue": "" },
+            { "source": "static", "width": 1 },
+            { "source": "estimatedLandingTime", "width": 5}
+        ]
+    }
+}
